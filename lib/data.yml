@@ -1,0 +1,51 @@
+---
+- :item:
+    :title: The notebook
+    :author: Nicholas Sparks
+  :available: true
+  :return_date:
+- :item:
+    :title: The choice
+    :author: Nicholas Sparks
+  :available: false
+  :return_date:
+- :item:
+    :title: One for the money
+    :author: Janet Evanovich
+  :available: true
+  :return_date:
+- :item:
+    :title: Turbo twenty-three
+    :author: Janet Evanovich
+  :available: true
+  :return_date:
+- :item:
+    :title: Truly madly guilty
+    :author: Liane Moriarty
+  :available: true
+  :return_date:
+- :item:
+    :title: Armageddon How Trump Can Beat Hillary
+    :author: Dick Morris
+  :available: true
+  :return_date:
+- :item:
+    :title: Do cows meow?
+    :author: Salina Yoon
+  :available: true
+  :return_date:
+- :item:
+    :title: How to Win Friends and Influence People
+    :author: Dale Carnegie
+  :available: true
+  :return_date:
+- :item:
+    :title: The Woman in Cabin 10
+    :author: Ruth Ware
+  :available: true
+  :return_date:
+- :item:
+    :title: Room
+    :author: Emma Donoghue
+  :available: true
+  :return_date:
