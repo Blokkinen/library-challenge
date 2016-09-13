@@ -1,12 +1,7 @@
-require 'patron.rb'
+require './lib/patron.rb'
 
 describe Patron do
+  subject { Patron.new }
 
-  it 'should be able to see a list of books available' do
-    expect
-  end
-
-  it 'should be able to see info about title and author' do
-
-  end
+ 
 end
