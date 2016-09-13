@@ -6,4 +6,8 @@ class Library
   def initialize
     @items = YAML.load_file('./lib/data.yml')
   end
+
+  def checkout_items
+    @items = checkout
+ end
 end
