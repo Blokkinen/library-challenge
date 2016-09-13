@@ -1,4 +1,5 @@
 require 'yaml'
+require 'Date'
 
 class Library
   attr_accessor :books
@@ -22,5 +23,8 @@ class Library
     File.open('./lib/data.yml', 'w') { |f| f.write @books.to_yaml }
   end
 
+  def due_date
+    Date.today.next_month
+  end
 
 end
