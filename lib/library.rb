@@ -8,8 +8,9 @@ class Library
     @books = YAML.load_file('./lib/data.yml')
   end
 
-  def checkout(book_to_checkout)
+  def checkout(book_to_checkout, person)
     book_to_checkout[:available] = false
+    person.bookshelf.push book_to_checkout
     update_yaml_file
     return true
   end
@@ -27,5 +28,7 @@ class Library
     set_due_date[:return_date] = Date.today.next_month
     update_yaml_file
   end
+
+
 
 end

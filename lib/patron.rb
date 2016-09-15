@@ -1,9 +1,15 @@
-require 'yaml'
+#require './library.rb'
 
 class Patron
-  attr_accessor :book_shelf
+  attr_accessor :bookshelf
 
   def initialize
-    @book_shelf = []
+    @bookshelf = []
   end
+
+  def check_if_present(book)
+    @bookshelf.push {}
+
+  end
+
 end
