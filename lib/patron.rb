@@ -6,10 +6,4 @@ class Patron
   def initialize
     @bookshelf = []
   end
-
-  def check_if_present(book)
-    @bookshelf.push {}
-
-  end
-
 end
