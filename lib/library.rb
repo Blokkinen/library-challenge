@@ -23,8 +23,9 @@ class Library
     File.open('./lib/data.yml', 'w') { |f| f.write @books.to_yaml }
   end
 
-  def due_date
-    Date.today.next_month
+  def due_date(set_due_date)
+    set_due_date[:return_date] = Date.today.next_month
+    update_yaml_file
   end
 
 end
